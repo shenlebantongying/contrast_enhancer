@@ -9,6 +9,7 @@ int main(int argc, char **argv) {
   t.addContrastTest({235, 245, 255}, {255, 255, 255});
   t.addContrastTest({3, 3, 30}, {0, 0, 0});
   t.addContrastTest({230, 200, 180}, {253, 246, 227});
+  t.addContrastTest({0, 0, 0}, {15, 74, 133});
 
   t.show();
 
